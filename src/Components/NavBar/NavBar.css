@@ -1,0 +1,29 @@
+.navbar {
+  background-color: rgb(20, 20, 20) !important;
+  font-family: exocet;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.logo {
+  width: 8rem;
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+}
+
+.nav-item > {
+  font-size: 5em;
+}
+
+.nav-item:not(:last-child) .nav-link::after {
+  content: "|";
+  color: gray;
+  padding-left: 1em;
+}
+
+.nav-item:last-child .nav-link::after {
+  content: none;
+}

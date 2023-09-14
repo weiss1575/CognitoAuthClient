@@ -1,0 +1,10 @@
+.form-error {
+  border: 1px solid red !important;
+}
+
+.error {
+  color: red;
+  height: 1.75rem;
+  font-size: 0.7rem;
+  padding-top: 2px;
+}
